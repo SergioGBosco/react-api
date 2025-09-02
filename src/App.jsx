@@ -18,15 +18,19 @@ function App() {
       <div className="row">
         {actressesList.map((actresses) => {
           return (
-            <div div className="col-33" key={actresses.id}>
+            <div className="col-33" key={actresses.id}>
               <div className="card">
-                <img src={actresses.image} alt={actresses.name} />
+                <div className="card-img">
+                  <img src={actresses.image} alt={actresses.name} />
+                </div>
                 <div className="description">
-                  <span>{actresses.name}</span>
-                  <span>{actresses.birth_year}</span>
-                  <span>{actresses.nationality}</span>
-                  <span>{actresses.awards}</span>
-                  <p>{actresses.biography}</p>
+                  <>
+                    <span>{actresses.name}</span>
+                    <span>{actresses.birth_year}</span>
+                    <span>{actresses.nationality}</span>
+                    <span>{actresses.awards}</span>
+                    <p>{actresses.biography}</p>
+                  </>
                 </div>
               </div>
             </div>

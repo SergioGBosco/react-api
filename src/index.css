@@ -15,10 +15,32 @@
 }
 
 .col-33 {
-  width: calc(100% / 3);
+  width: calc((100% / 3) - 20px);
+  margin: 10px;
+}
+
+
+/* card */
+.card {
+  height: 100%;
+  padding: 10px;
+  border: 1px, solid, black;
+  border-radius: 20px;
+  background-color: black;
 }
 
 .card img {
-  width: 100px;
-  ;
+  height: 500px;
+  width: 100%
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+}
+
+.card span {
+  margin: 5px 0;
 }
