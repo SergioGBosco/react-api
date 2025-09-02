@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>esercizio di oggi
+      <div>esercizio di oggi Lista attori
       </div>
     </>
   )
